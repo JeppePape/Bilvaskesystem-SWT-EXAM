@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7239" branch-rate="0.6222" version="1.9" timestamp="1686086414" lines-covered="139" lines-valid="192" branches-covered="28" branches-valid="45">
+  <sources>
+    <source>C:\Users\jeppe\</source>
+  </sources>
+  <packages>
+    <package name="Bilvaskesystem" line-rate="0.5517" branch-rate="0.6222" complexity="57">
+      <classes>
+        <class name="Program" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="2" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Interfaces.AfstandChangedEventArgs" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Interfaces\IAfstandsSensor.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Afstand" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="227" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="227" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Interfaces.ValgAfVaskEventArgs" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Interfaces\IUserInterface.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_VaskType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="32" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="32" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Controller.GennemfoerVask" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Controller\GennemførVask.cs" line-rate="0.9393" branch-rate="0.8484" complexity="34">
+          <methods>
+            <method name="GetCurrentState" signature="()" line-rate="0.5" branch-rate="0.2" complexity="5">
+              <lines>
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="5" branch="True" condition-coverage="20% (1/5)">
+                  <conditions>
+                    <condition number="11" type="switch" coverage="20%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="0" branch="False" />
+                <line number="30" hits="5" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="38" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="HandleValgAfVask" signature="(System.Object,Bilvaskesystem.Interfaces.ValgAfVaskEventArgs)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="68" hits="16" branch="False" />
+                <line number="69" hits="16" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="73" hits="16" branch="False" />
+                <line number="74" hits="16" branch="False" />
+                <line number="75" hits="16" branch="False" />
+                <line number="76" hits="16" branch="False" />
+                <line number="78" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="HandleVaskAfsluttet" signature="(System.Object,Bilvaskesystem.Interfaces.VaskAfsluttetEventArgs)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="82" hits="11" branch="False" />
+                <line number="83" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="87" hits="11" branch="False" />
+                <line number="88" hits="11" branch="False" />
+                <line number="89" hits="11" branch="False" />
+                <line number="90" hits="11" branch="False" />
+                <line number="92" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="HandleNyAfstand" signature="(System.Object,Bilvaskesystem.Interfaces.AfstandChangedEventArgs)" line-rate="1" branch-rate="0.9582999999999999" complexity="24">
+              <lines>
+                <line number="97" hits="42" branch="False" />
+                <line number="98" hits="42" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="100%" />
+                    <condition number="17" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="102" hits="36" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="100%" />
+                    <condition number="54" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="103" hits="5" branch="False" />
+                <line number="104" hits="5" branch="False" />
+                <line number="105" hits="5" branch="False" />
+                <line number="106" hits="36" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="81" type="jump" coverage="100%" />
+                    <condition number="104" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="107" hits="21" branch="False" />
+                <line number="108" hits="21" branch="False" />
+                <line number="109" hits="21" branch="False" />
+                <line number="110" hits="21" branch="False" />
+                <line number="112" hits="15" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="142" type="jump" coverage="100%" />
+                    <condition number="167" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="113" hits="5" branch="False" />
+                <line number="114" hits="5" branch="False" />
+                <line number="115" hits="5" branch="False" />
+                <line number="116" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="200" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="15" branch="False" />
+                <line number="123" hits="6" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="225" type="jump" coverage="50%" />
+                    <condition number="247" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="128" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="283" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="134" hits="6" branch="False" />
+                <line number="137" hits="42" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Bilvaskesystem.Interfaces.IAfstandsSensor,Bilvaskesystem.Interfaces.IUserInterface,Bilvaskesystem.Interfaces.IVaskeSekvens,Bilvaskesystem.Interfaces.IPortStyring,Bilvaskesystem.Interfaces.ISkilteStyring)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="36" branch="False" />
+                <line number="49" hits="36" branch="False" />
+                <line number="50" hits="36" branch="False" />
+                <line number="51" hits="36" branch="False" />
+                <line number="52" hits="36" branch="False" />
+                <line number="53" hits="36" branch="False" />
+                <line number="54" hits="36" branch="False" />
+                <line number="55" hits="36" branch="False" />
+                <line number="57" hits="36" branch="False" />
+                <line number="58" hits="36" branch="False" />
+                <line number="59" hits="36" branch="False" />
+                <line number="61" hits="36" branch="False" />
+                <line number="62" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="5" branch="True" condition-coverage="20% (1/5)">
+              <conditions>
+                <condition number="11" type="switch" coverage="20%" />
+              </conditions>
+            </line>
+            <line number="28" hits="0" branch="False" />
+            <line number="30" hits="5" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="38" hits="5" branch="False" />
+            <line number="68" hits="16" branch="False" />
+            <line number="69" hits="16" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="73" hits="16" branch="False" />
+            <line number="74" hits="16" branch="False" />
+            <line number="75" hits="16" branch="False" />
+            <line number="76" hits="16" branch="False" />
+            <line number="78" hits="16" branch="False" />
+            <line number="82" hits="11" branch="False" />
+            <line number="83" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="87" hits="11" branch="False" />
+            <line number="88" hits="11" branch="False" />
+            <line number="89" hits="11" branch="False" />
+            <line number="90" hits="11" branch="False" />
+            <line number="92" hits="11" branch="False" />
+            <line number="97" hits="42" branch="False" />
+            <line number="98" hits="42" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="11" type="jump" coverage="100%" />
+                <condition number="17" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="102" hits="36" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="34" type="jump" coverage="100%" />
+                <condition number="54" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="103" hits="5" branch="False" />
+            <line number="104" hits="5" branch="False" />
+            <line number="105" hits="5" branch="False" />
+            <line number="106" hits="36" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="81" type="jump" coverage="100%" />
+                <condition number="104" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="107" hits="21" branch="False" />
+            <line number="108" hits="21" branch="False" />
+            <line number="109" hits="21" branch="False" />
+            <line number="110" hits="21" branch="False" />
+            <line number="112" hits="15" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="142" type="jump" coverage="100%" />
+                <condition number="167" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="113" hits="5" branch="False" />
+            <line number="114" hits="5" branch="False" />
+            <line number="115" hits="5" branch="False" />
+            <line number="116" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="200" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="15" branch="False" />
+            <line number="123" hits="6" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="225" type="jump" coverage="50%" />
+                <condition number="247" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="128" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="283" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="134" hits="6" branch="False" />
+            <line number="137" hits="42" branch="False" />
+            <line number="48" hits="36" branch="False" />
+            <line number="49" hits="36" branch="False" />
+            <line number="50" hits="36" branch="False" />
+            <line number="51" hits="36" branch="False" />
+            <line number="52" hits="36" branch="False" />
+            <line number="53" hits="36" branch="False" />
+            <line number="54" hits="36" branch="False" />
+            <line number="55" hits="36" branch="False" />
+            <line number="57" hits="36" branch="False" />
+            <line number="58" hits="36" branch="False" />
+            <line number="59" hits="36" branch="False" />
+            <line number="61" hits="36" branch="False" />
+            <line number="62" hits="36" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Controller.VaskeSekvens" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Controller\UdførVaskeSekvens.cs" line-rate="0" branch-rate="0" complexity="3">
+          <methods>
+            <method name="Start" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="VaskAfsluttet" signature="(Bilvaskesystem.Interfaces.VaskAfsluttetEventArgs)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="23" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Boundary.AfstandsSensor" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Boundary\AfstandsSensor.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="NyAfstand" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                    <condition number="23" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="64" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AfstandChanged" signature="(Bilvaskesystem.Interfaces.AfstandChangedEventArgs)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+                <condition number="23" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="64" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="33" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Boundary.PortStyring" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Boundary\PortStyring.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="LukPort" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AabenPort" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Boundary.SkilteStyring" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Boundary\SkilteStyring.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="turnOffSkilte" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="KoerTilbage" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="KoerFrem" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Stop" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Boundary.UserInterface" filename="Desktop\Bilvaskesystem\Bilvaskesystem\Boundary\UserInterface.cs" line-rate="0" branch-rate="0" complexity="3">
+          <methods>
+            <method name="VælgVask" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="VaskValgt" signature="(Bilvaskesystem.Interfaces.ValgAfVaskEventArgs)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Bilvaskesystem.Test.Unit" line-rate="0.9868000000000001" branch-rate="1" complexity="11">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.6.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Bilvaskesystem.Test.Unit.GennemførVaskTest" filename="Desktop\Bilvaskesystem\Bilvaskesystem.Test.Unit\GennemførVaskTest.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="36" branch="False" />
+                <line number="23" hits="36" branch="False" />
+                <line number="24" hits="36" branch="False" />
+                <line number="25" hits="36" branch="False" />
+                <line number="26" hits="36" branch="False" />
+                <line number="27" hits="36" branch="False" />
+                <line number="28" hits="36" branch="False" />
+                <line number="29" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="TestTilstandLedigKørTilbage" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="5" branch="False" />
+                <line number="41" hits="5" branch="False" />
+                <line number="43" hits="5" branch="False" />
+                <line number="44" hits="5" branch="False" />
+                <line number="45" hits="5" branch="False" />
+                <line number="47" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="TestTilstandLedigKørFrem" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="5" branch="False" />
+                <line number="58" hits="5" branch="False" />
+                <line number="60" hits="5" branch="False" />
+                <line number="61" hits="5" branch="False" />
+                <line number="62" hits="5" branch="False" />
+                <line number="63" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="TestTilstandLedigStop" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="5" branch="False" />
+                <line number="73" hits="5" branch="False" />
+                <line number="78" hits="5" branch="False" />
+                <line number="79" hits="5" branch="False" />
+                <line number="81" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="TestTilstandLedigTilUdkørselKørTilbage" signature="(System.Int32,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="5" branch="False" />
+                <line number="92" hits="5" branch="False" />
+                <line number="93" hits="5" branch="False" />
+                <line number="94" hits="5" branch="False" />
+                <line number="95" hits="5" branch="False" />
+                <line number="96" hits="5" branch="False" />
+                <line number="99" hits="5" branch="False" />
+                <line number="100" hits="5" branch="False" />
+                <line number="101" hits="5" branch="False" />
+                <line number="102" hits="5" branch="False" />
+                <line number="103" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="TestTilstandLedigTilUdkørselTilLedig" signature="(System.Int32,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="108" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestTilstandLedigTilKlarTilVaskOgVask" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="129" hits="5" branch="False" />
+                <line number="132" hits="5" branch="False" />
+                <line number="133" hits="5" branch="False" />
+                <line number="137" hits="5" branch="False" />
+                <line number="138" hits="5" branch="False" />
+                <line number="139" hits="5" branch="False" />
+                <line number="140" hits="5" branch="False" />
+                <line number="141" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="TestTilstandLedigTilUdkoersel" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="149" hits="5" branch="False" />
+                <line number="152" hits="5" branch="False" />
+                <line number="153" hits="5" branch="False" />
+                <line number="154" hits="5" branch="False" />
+                <line number="157" hits="5" branch="False" />
+                <line number="158" hits="5" branch="False" />
+                <line number="159" hits="5" branch="False" />
+                <line number="160" hits="5" branch="False" />
+                <line number="161" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="TestAfstandUdenforRækkeViddeRigtigVærdi" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="165" hits="1" branch="False" />
+                <line number="168" hits="1" branch="False" />
+                <line number="170" hits="1" branch="False" />
+                <line number="171" hits="1" branch="False" />
+                <line number="172" hits="1" branch="False" />
+                <line number="173" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestAfstandUdenforRækkeViddeForkertVærdi" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="180" hits="4" branch="False" />
+                <line number="183" hits="4" branch="False" />
+                <line number="185" hits="4" branch="False" />
+                <line number="186" hits="4" branch="False" />
+                <line number="187" hits="4" branch="False" />
+                <line number="188" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="36" branch="False" />
+            <line number="23" hits="36" branch="False" />
+            <line number="24" hits="36" branch="False" />
+            <line number="25" hits="36" branch="False" />
+            <line number="26" hits="36" branch="False" />
+            <line number="27" hits="36" branch="False" />
+            <line number="28" hits="36" branch="False" />
+            <line number="29" hits="36" branch="False" />
+            <line number="38" hits="5" branch="False" />
+            <line number="41" hits="5" branch="False" />
+            <line number="43" hits="5" branch="False" />
+            <line number="44" hits="5" branch="False" />
+            <line number="45" hits="5" branch="False" />
+            <line number="47" hits="5" branch="False" />
+            <line number="55" hits="5" branch="False" />
+            <line number="58" hits="5" branch="False" />
+            <line number="60" hits="5" branch="False" />
+            <line number="61" hits="5" branch="False" />
+            <line number="62" hits="5" branch="False" />
+            <line number="63" hits="5" branch="False" />
+            <line number="70" hits="5" branch="False" />
+            <line number="73" hits="5" branch="False" />
+            <line number="78" hits="5" branch="False" />
+            <line number="79" hits="5" branch="False" />
+            <line number="81" hits="5" branch="False" />
+            <line number="89" hits="5" branch="False" />
+            <line number="92" hits="5" branch="False" />
+            <line number="93" hits="5" branch="False" />
+            <line number="94" hits="5" branch="False" />
+            <line number="95" hits="5" branch="False" />
+            <line number="96" hits="5" branch="False" />
+            <line number="99" hits="5" branch="False" />
+            <line number="100" hits="5" branch="False" />
+            <line number="101" hits="5" branch="False" />
+            <line number="102" hits="5" branch="False" />
+            <line number="103" hits="5" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="129" hits="5" branch="False" />
+            <line number="132" hits="5" branch="False" />
+            <line number="133" hits="5" branch="False" />
+            <line number="137" hits="5" branch="False" />
+            <line number="138" hits="5" branch="False" />
+            <line number="139" hits="5" branch="False" />
+            <line number="140" hits="5" branch="False" />
+            <line number="141" hits="5" branch="False" />
+            <line number="149" hits="5" branch="False" />
+            <line number="152" hits="5" branch="False" />
+            <line number="153" hits="5" branch="False" />
+            <line number="154" hits="5" branch="False" />
+            <line number="157" hits="5" branch="False" />
+            <line number="158" hits="5" branch="False" />
+            <line number="159" hits="5" branch="False" />
+            <line number="160" hits="5" branch="False" />
+            <line number="161" hits="5" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="168" hits="1" branch="False" />
+            <line number="170" hits="1" branch="False" />
+            <line number="171" hits="1" branch="False" />
+            <line number="172" hits="1" branch="False" />
+            <line number="173" hits="1" branch="False" />
+            <line number="180" hits="4" branch="False" />
+            <line number="183" hits="4" branch="False" />
+            <line number="185" hits="4" branch="False" />
+            <line number="186" hits="4" branch="False" />
+            <line number="187" hits="4" branch="False" />
+            <line number="188" hits="4" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
